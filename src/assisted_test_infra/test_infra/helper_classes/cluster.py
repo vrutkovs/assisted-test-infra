@@ -108,7 +108,7 @@ class Cluster(Entity):
         )
 
         platform = (
-            models.Platform(type=self._config.platform) if self._config.platform == consts.Platforms.VSPHERE else None
+            models.Platform(type=self._config.platform) if self._config.platform in [consts.Platforms.VSPHERE, consts.Platforms.NUTANIX] else None
         )
 
         cluster = self.api_client.create_cluster(

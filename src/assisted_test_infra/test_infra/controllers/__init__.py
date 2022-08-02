@@ -5,6 +5,7 @@ from .node_controllers import NodeController
 from .node_controllers.libvirt_controller import LibvirtController
 from .node_controllers.node import Node
 from .node_controllers.terraform_controller import TerraformController
+from .node_controllers.nutanix_controller import NutanixController
 from .node_controllers.vsphere_controller import VSphereController
 from .proxy_controller.proxy_controller import ProxyController
 from .tang_controller.tang_controller import TangController
@@ -20,5 +21,6 @@ __all__ = [
     "TangController",
     "TerraformController",
     "LibvirtController",
+    "NutanixController",
     "VSphereController",
 ]
