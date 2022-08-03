@@ -1,0 +1,8 @@
+{
+    "nutanix_username": "placeholder",
+    "nutanix_password": "placeholder",
+    "nutanix_endpoint": "placeholder",
+    "nutanix_port": "9440",
+    "nutanix_cluster_name": "placeholder",
+    "nutanix_subnet_name": "placeholder"
+}
