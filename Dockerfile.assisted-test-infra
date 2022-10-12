@@ -47,7 +47,7 @@ WORKDIR /home/assisted-test-infra
 
 COPY requirements.txt requirements-dev.txt ./
 COPY --from=service /clients/assisted-service-client-*.tar.gz /build/pip/
-RUN pip3 install --upgrade pip && \
+RUN pip3 install --upgrade pip wheel && \
       pip3 install --no-cache-dir -I -r ./requirements.txt -r ./requirements-dev.txt && \
       pip3 install --upgrade /build/pip/*
 
