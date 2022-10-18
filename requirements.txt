@@ -33,5 +33,5 @@ urllib3==1.26.12
 pyvmomi>=7.0.2
 waiting>=1.4.1
 prompt_toolkit==3.0.31
-git+https://github.com/vrutkovs/nutanix_api@3dbf726c5a568fc2709964b81d7a82caf3e2296b#egg=nutanix-api
+git+https://github.com/vrutkovs/nutanix_api@048704a#egg=nutanix-api
 pytest-error-for-skips==2.0.2
